@@ -1,0 +1,6 @@
+include ../mixins/card_menu.pug
+
+.menu__container
+    .menu__container--flex
+        each name in  categories
+            +card_menu(name, './assets/moda.png')
